@@ -20,8 +20,8 @@
 							<nav id="nav">
 								<ul>
 									<li><a class="icon solid fa-feather-alt" href="index.html"><span>Introduction</span></a></li>
-									<li><a class="icon solid fa-briefcase" href="Projects.html"><span>Projects</span></a></li>
-									<li><a class="icon solid fa-briefcase" href="Final_Tutorial.html"><span>Code</span></a></li>
+									<li><a class="icon solid fa-briefcase" href="Final_Tutorial (3).html"><span>Code</span></a></li>
+									<li><a class="icon solid fa-briefcase" href="Projects.html"><span>Conclusion</span></a></li>
 								</ul>
 							</nav>
 
@@ -29,52 +29,64 @@
 				</section>
 
 			<!-- Features -->
-				<section id="features">
+				<section id="main">
 					<div class="container">
-						<header>
-							<h2>Design</h2>
-						</header>
-						<div class="row aln-center">
-							<div class="col-4 col-6-medium col-12-small">
+						<article class="box post">
+							<header>
+								<h2><strong>Conclusion</strong></h2>
+							</header>
+							<h3>What we did!</h3>
+							<p>We had set out with one goal in mind. To find out who could,
+							in the near future, join the Basketball Hall of Fame by examining
+							players in the NBA. After cleaning up the data, we created two
+							simple models to determine who could join, both of which can
+							be found in the bottom section of our code page. The first model
+							took into account who, using statistics taken in 2017, could have
+							already joined the Hall of Fame given accomplishments completed.
+							The second model looked for performance on a per game or per time
+							basis rather that overall achievements to see who could join the
+							Hall of Fame in the future. The results show that although many
+							known names are set to fit straight into the Hall of Fame, names
+							that gained popularity after 2017 show up in the second model!</p>
+							<h3>Considerations We Took</h3>
+							<p>Perhaps most important was our decision to go with a random forest.
+							Perhaps we should have swapped away from random forest as went deeper
+							in but initially, we had been working with many seperate variables
+							so the best way forward was with a random forest. When we finally
+							did decide to focus down specific variables, we chose to remove variables
+							that would be clearly dependent on other variables. For example, Player
+							Effeciciency Rating was already a combination of other variables so using
+							it along with the other variables would only confuse the function more.
+							In the end, we decided to look at overall performance and per game/time performace
+							to judge both who had already had the largest impact on the game and who
+							could become a major impact in the near future.</p>
+							<h3>Was it perfect?</h3>
+							<p>Our actual model is truly far from perfect. First, we did do some
+							data erasing due to unknown values. Additionally, it can be said that
+							the size of our data set is actually quite small. From our Kaggle
+							data, we found more then 4000 players. However, of all of the people
+							in the Basketball Hall of Fame, only 177 of them were players and out
+							of the 177, only 110 were from the NBA. If you take into account the
+							fact we split the set yet again in order to test our model, the amount
+							of Hall of Fame players in both the training set and testing set
+							were quite small in number. Additionally, it is important to note that
+							our data we used to create our model was composed of data from  1977-1997 and the data we were
+							experimenting with was data from 1997-2017. Over the course of those years
+							the game had changed. However, using anyone who has retired in the
+							most recent 20 years or are still in the game for training the model
+							would also be unfair because it is still possible for those players
+							to be inducted into the Hall of Fame.</p>
 
-								<!-- Feature -->
-									<section>
-										<header>
-											<h3>Data Collection</h3>
-										</header>
-										<p>Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles. Si vas a utilizar un pasaje de Lorem Ipsum, necesitás estar seguro de que no hay nada avergonzante escondido en el medio del texto. Todos los generadores de Lorem Ipsum que se encuentran en Internet tienden a repetir trozos predefinidos cuando sea necesario, haciendo a este el único generador verdadero (v</p>
-									</section>
 
-							</div>
-							<div class="col-4 col-6-medium col-12-small">
 
-								<!-- Feature -->
-									<section>
-										<header>
-											<h3>Variables Used</h3>
-										</header>
-										<p>de omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum</p>
-									</section>
-
-							</div>
-							<div class="col-4 col-6-medium col-12-small">
-
-								<!-- Feature -->
-									<section>
-										<header>
-											<h3>Something</h3>
-										</header>
-										<p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that ar</p>
-									</section>
-
-							</div>
+						</article>
 						</div>
 					</div>
 				</section>
 
 
 			<!-- Footer -->
-			<section id="footer">
+			<!--<section id="footer">
 				<div class="container">
 					<header>
 						<h2>Contact Me</strong></h2>
@@ -108,7 +120,7 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 
 		</div>
 

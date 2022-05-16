@@ -21,8 +21,8 @@
 							<nav id="nav">
 								<ul>
 									<li><a class="icon solid fa-feather-alt" href="index.html"><span>Introduction</span></a></li>
-									<li><a class="icon solid fa-briefcase" href="Projects.html"><span>Projects</span></a></li>
-									<li><a class="icon solid fa-briefcase" href="Final_Tutorial.html"><span>Code</span></a></li>
+									<li><a class="icon solid fa-briefcase" href="Final_Tutorial (3).html"><span>Code</span></a></li>
+									<li><a class="icon solid fa-briefcase" href="Projects.html"><span>Conclsion</span></a></li>
 								</ul>
 							</nav>
 
@@ -37,25 +37,70 @@
 							<!-- Post -->
 								<article class="box post">
 									<header>
-										<h2>Hey! My Name is <strong>Leo He</strong></h2>
+										<h2>NBA <strong>The Hall Of Fame</strong></h2>
 									</header>
-									<h3>Topic</h3>
-									<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum
-										 ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N.
-										 del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de
-										  tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien
-										ingresó como texto de rell</p>
+									<h3>Naismith Memorial Basketball Hall of Fame</h3>
+									<p>The Naismith Memorial Basketball Hall of Fame is a museam
+									located in Springfield, Massachusets. This museam is also an Hall
+									of Fame for all of basketball, awarding those who have shown massive
+									contributions to basketball. Although coaches, referees, and anyone
+									else who has had a major effect on the game can be placed in the
+									Hall of Fame, we will only be examining the player category. in
+									order to be a player placed in the Basketball Hall of Fame, one
+									must have been retired for three years and have had a winshare (a
+									value representing contribution to wins) of at least 50.</p>
 
-									<h3>Purpose</h3>
-									<p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto d
-										e un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más
-										o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido
-										aquí". Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores
-										de páginas web usan el Lorem Ipsum como su t</p>
+									<h3>Our Dataset</h3>
+									<p>For our main dataset, we chose to use a dataset on Kaggle containing
+									player personal data along with performances every season including the
+									variables below:
+									<br>
+									<br><b>Total Points</b>: Total number of points scored over their career
+									<br><b>Win Share</b>: Each win is worth 3 points. Player are given a
+									part of the 3 points depending on the amount they contributed to that game.
+									Win Share is cumulative.
+									<br><b>Offensive Win Share</b>: Win Share considering only offensive plays.
+									<br><b>Defensive Win Share</b>: Win Share considering only defensive plays.
+									<br><b>Win Share/ 48 mins</b>: Average Win Share for 48 minutes played
+									<br><b>Player Effeciency Rating</b>: A score that predicts player Effeciency
+									using other statisitics
+									<br><b>Basketball Box Score-Based Metric</b>: A rating dependent on number
+									of points scored over the average per 100 plays
+									<br><b>Offensive Basketball Box Score-Based Metric</b>: The same rating as
+									above but only dependent on offensive plays
+									<br><b>RPG</b>: Rebounds per game
+									<br><b>SPG</b>: Steals per game
+									<br><b>APG</b>: Assists per game
+									<br><b>BPG</b>: Blocks per game
 
-									<h3>
+									<br><br>
+									Along with these variables were other variables including number of championships,
+									free point percentage,and three point percentage. However,we had decided that due
+									to the incredibly weak coorelation between those variables and Hall of Fame, we
+									would choose to stay away from considering them.
 
+									The dataset contained data from 1950 to 2017 but we choose to only examine data
+									beginning from 1977 due to extremly limited data starting from 1950 and the use
+									use of exactly four decades. Although this data set is not perfect, lacking crucial
+									data about major players who have shown up in the past 7 years, it is still contains
+									a plethora of data.
+									</p>
+									</nav>
 
+									<h3> The Goal </h3>
+									<p>Our goal was to simply use the variables we could to do two major tasks. First
+									we wanted to predict who would likely, post retirement, be entered into the Hall
+									of Fame. Secondly, we wanted to find underrated players who have shown excellence
+									in the games where they have been played but who have simply failed to have
+									played in the number of games that would allow for them to have things such as
+									high winshare.</p>
+
+									<h3>Dataset Used</h3>
+									https://www.kaggle.com/datasets/drgilermo/nba-players-stats/code?resource=download&select=Seasons_Stats.csv
+									<br>
+									https://www.kaggle.com/datasets/drgilermo/nba-players-stats?resource=download&select=Seasons_Stats.csv
+									<br>
+									https://www.kaggle.com/datasets/drgilermo/nba-players-stats?resource=download&select=player_data.csv
 
 								</article>
 
@@ -64,7 +109,7 @@
 				</section>
 
 			<!-- Footer -->
-				<section id="footer">
+				<!-- <section id="footer">
 					<div class="container">
 						<header>
 							<h2>Contact Me</strong></h2>
@@ -98,7 +143,7 @@
 							</div>
 						</div>
 					</div>
-				</section>
+				</section>-->
 
 		</div>
 
