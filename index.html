@@ -21,8 +21,8 @@
 							<nav id="nav">
 								<ul>
 									<li><a class="icon solid fa-feather-alt" href="index.html"><span>Introduction</span></a></li>
-									<li><a class="icon solid fa-briefcase" href="Final_Tutorial (3).html"><span>Code</span></a></li>
-									<li><a class="icon solid fa-briefcase" href="Projects.html"><span>Conclsion</span></a></li>
+									<li><a class="icon solid fa-briefcase" href="422Final.html"><span>Code</span></a></li>
+
 								</ul>
 							</nav>
 
@@ -47,60 +47,30 @@
 									else who has had a major effect on the game can be placed in the
 									Hall of Fame, we will only be examining the player category. in
 									order to be a player placed in the Basketball Hall of Fame, one
-									must have been retired for three years and have had a winshare (a
-									value representing contribution to wins) of at least 50.</p>
+									must have been retired for three years.</p>
 
 									<h3>Our Dataset</h3>
-									<p>For our main dataset, we chose to use a dataset on Kaggle containing
-									player personal data along with performances every season including the
-									variables below:
-									<br>
-									<br><b>Total Points</b>: Total number of points scored over their career
-									<br><b>Win Share</b>: Each win is worth 3 points. Player are given a
-									part of the 3 points depending on the amount they contributed to that game.
-									Win Share is cumulative.
-									<br><b>Offensive Win Share</b>: Win Share considering only offensive plays.
-									<br><b>Defensive Win Share</b>: Win Share considering only defensive plays.
-									<br><b>Win Share/ 48 mins</b>: Average Win Share for 48 minutes played
-									<br><b>Player Effeciency Rating</b>: A score that predicts player Effeciency
-									using other statisitics
-									<br><b>Basketball Box Score-Based Metric</b>: A rating dependent on number
-									of points scored over the average per 100 plays
-									<br><b>Offensive Basketball Box Score-Based Metric</b>: The same rating as
-									above but only dependent on offensive plays
-									<br><b>RPG</b>: Rebounds per game
-									<br><b>SPG</b>: Steals per game
-									<br><b>APG</b>: Assists per game
-									<br><b>BPG</b>: Blocks per game
-
-									<br><br>
-									Along with these variables were other variables including number of championships,
-									free point percentage,and three point percentage. However,we had decided that due
-									to the incredibly weak coorelation between those variables and Hall of Fame, we
-									would choose to stay away from considering them.
-
-									The dataset contained data from 1950 to 2017 but we choose to only examine data
-									beginning from 1977 due to extremly limited data starting from 1950 and the use
-									use of exactly four decades. Although this data set is not perfect, lacking crucial
-									data about major players who have shown up in the past 7 years, it is still contains
-									a plethora of data.
+									<p>Our main dataset was taken off of basketball-refernce.com
+										and contained individual player per game per season data From
+										1950 - 2022. For the sake of our analysis, we broke up the data
+										in such a way that we had stats for each player's year 1 and
+										year 2. This way, we could create a prediction algorithm based
+										for future candidates without first seeing their lifetime
+										achievements.
 									</p>
 									</nav>
 
 									<h3> The Goal </h3>
-									<p>Our goal was to simply use the variables we could to do two major tasks. First
-									we wanted to predict who would likely, post retirement, be entered into the Hall
-									of Fame. Secondly, we wanted to find underrated players who have shown excellence
-									in the games where they have been played but who have simply failed to have
-									played in the number of games that would allow for them to have things such as
-									high winshare.</p>
+									<p>The NBA Hall of Fame is somewhat shrouded in mystery.
+									Although we know that Hall of Famers are chosen for good
+									reasons, it would be nice to have objective way to see which
+									players will have the ability to one day make it into the Hall
+									of Fame. Along with just wanting, for the sake of knowledge, to know
+									who the best players are or potentially will be, there is
+									also an incentive for brands to know who the next big player
+									in order to make the brand deals before other brands try to
+									take over. </p>
 
-									<h3>Dataset Used</h3>
-									https://www.kaggle.com/datasets/drgilermo/nba-players-stats/code?resource=download&select=Seasons_Stats.csv
-									<br>
-									https://www.kaggle.com/datasets/drgilermo/nba-players-stats?resource=download&select=Seasons_Stats.csv
-									<br>
-									https://www.kaggle.com/datasets/drgilermo/nba-players-stats?resource=download&select=player_data.csv
 
 								</article>
 
