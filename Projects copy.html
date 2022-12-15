@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+					<div class="container">
+
+						<!-- Logo -->
+							<h1 style="color:red;">Project</h1>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li><a class="icon solid fa-feather-alt" href="index.html"><span>Introduction</span></a></li>
+									<li><a class="icon solid fa-briefcase" href="422Final.html"><span>Code</span></a></li>
+									<li><a class="icon solid fa-briefcase" href="Projects.html"><span>Conclusion</span></a></li>
+								</ul>
+							</nav>
+
+					</div>
+				</section>
+
+			<!-- Features -->
+				<section id="main">
+					<div class="container">
+						<article class="box post">
+							<header>
+								<h2><strong>Conclusion</strong></h2>
+							</header>
+							<h3>What we did!</h3>
+							<p>We had set out with one goal in mind. To find out who could,
+							in the near future, join the Basketball Hall of Fame by examining
+							players in the NBA. After cleaning up the data, we created two
+							simple models to determine who could join, both of which can
+							be found in the bottom section of our code page. The first model
+							took into account who, using statistics taken in 2017, could have
+							already joined the Hall of Fame given accomplishments completed.
+							The second model looked for performance on a per game or per time
+							basis rather that overall achievements to see who could join the
+							Hall of Fame in the future. The results show that although many
+							known names are set to fit straight into the Hall of Fame, names
+							that gained popularity after 2017 show up in the second model!</p>
+							<h3>Considerations We Took</h3>
+							<p>Perhaps most important was our decision to go with a random forest.
+							Perhaps we should have swapped away from random forest as went deeper
+							in but initially, we had been working with many seperate variables
+							so the best way forward was with a random forest. When we finally
+							did decide to focus down specific variables, we chose to remove variables
+							that would be clearly dependent on other variables. For example, Player
+							Effeciciency Rating was already a combination of other variables so using
+							it along with the other variables would only confuse the function more.
+							In the end, we decided to look at overall performance and per game/time performace
+							to judge both who had already had the largest impact on the game and who
+							could become a major impact in the near future.</p>
+							<h3>Was it perfect?</h3>
+							<p>Our actual model is truly far from perfect. First, we did do some
+							data erasing due to unknown values. Additionally, it can be said that
+							the size of our data set is actually quite small. From our Kaggle
+							data, we found more then 4000 players. However, of all of the people
+							in the Basketball Hall of Fame, only 177 of them were players and out
+							of the 177, only 110 were from the NBA. If you take into account the
+							fact we split the set yet again in order to test our model, the amount
+							of Hall of Fame players in both the training set and testing set
+							were quite small in number. Additionally, it is important to note that
+							our data we used to create our model was composed of data from  1977-1997 and the data we were
+							experimenting with was data from 1997-2017. Over the course of those years
+							the game had changed. However, using anyone who has retired in the
+							most recent 20 years or are still in the game for training the model
+							would also be unfair because it is still possible for those players
+							to be inducted into the Hall of Fame.</p>
+
+
+
+						</article>
+						</div>
+					</div>
+				</section>
+
+
+			<!-- Footer -->
+			<!--<section id="footer">
+				<div class="container">
+					<header>
+						<h2>Contact Me</strong></h2>
+					</header>
+					<div class="row">
+						<div class="col-6 col-12-medium">
+							<section>
+								<p>Basic Contact Information:</p>
+							</section>
+						</div>
+						<div class="col-6 col-12-medium">
+							<section>
+								<div class="row">
+									<div class="col-6 col-12-small">
+										<ul class="icons">
+											<li class="icon solid fa-home">
+												2611 Sagebrush Terrace<br />
+												Silver Spring MD 20905<br />
+												USA
+											</li>
+											<li class="icon solid fa-phone">
+												(240) 778-9218
+											</li>
+											<li class="icon solid fa-envelope">
+												<a href="#">theleohe@gmail.com</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section> -->
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
